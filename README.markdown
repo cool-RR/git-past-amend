@@ -40,3 +40,13 @@ Just download the `git-past-amend` file from this repo and put it someplace on y
 **What's the license?** MIT license.
 
 **What if there's a rebase conflict?** In that case you can resolve it manually like any other rebase conflict, do `rebase --continue` when you're done and the `past-amend` action will be completed.
+
+
+# Tips #
+
+For quick access, add the following snippet to your `~/.gitconfig` file:
+
+    [alias]
+        pa = past-amend
+        
+Now you can use `git pa` instead of `git past-amend`.
