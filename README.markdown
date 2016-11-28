@@ -39,7 +39,7 @@ Just download the `git-past-amend` file from this repo and put it someplace on y
 
 **What's the license?** MIT license.
 
-**What if there's a rebase conflict?** In that case you can resolve it manually like any other rebase conflict, do `rebase --continue` when you're done and the `past-amend` action will be completed.
+**What if there's a rebase conflict?** In that case you can resolve it manually like any other rebase conflict, do `git rebase --continue` when you're done and the `past-amend` action will be completed.
 
 
 # Tips #
