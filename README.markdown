@@ -15,13 +15,17 @@ Run this:
     
 Use `3` for the parent of the parent of the parent, etc.
 
+*Alternatively,* you can choose the past commit that should be amended:
+
+    git past-amend 377eb99d
+
 That's it, the commit has been amended, your other commits were rebased and you can continue working.
 
 
 
 # WARNING! You may lose your code! #
 
-`git past-amend` is a tiny open-source project with no testing whatsoever. It might delete all of your code. Please have full backups to all of your code before using this tool.
+`git past-amend` is a tiny open-source project with very minimal testing. It might delete all of your code. Please have full backups to all of your code before using this tool.
 
 
 # How to install #
