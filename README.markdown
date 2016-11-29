@@ -21,7 +21,10 @@ Use `3` for the parent of the parent of the parent, etc.
 
 That's it, the commit has been amended, your other commits were rebased and you can continue working.
 
+You can also use any other legal Git commit-ish:
 
+    git past-amend HEAD~2
+    git past-amend my-cool-branch
 
 # WARNING! You may lose your code! #
 
